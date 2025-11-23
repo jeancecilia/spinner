@@ -1,0 +1,99 @@
+Bangkok Mobile App Handbook for SMEs
+
+Phones are the default channel for Thai consumers. They book services, pay bills, and message through LINE constantly. A well-scoped app can add convenience and revenue, but only when it fits a real need. This handbook helps you judge necessity, estimate cost and time, and pick a reliable Bangkok development partner.
+
+Do You Need an App or Something Simpler?
+
+Check three points before committing to native builds:
+• Will people use this repeatedly?
+• Do you need device capabilities like camera, GPS, push alerts, or offline mode?
+• Could a responsive website or LINE OA flow cover most of the journey?
+
+Choose accordingly:
+• Website/portal — for info, contact, lead capture, and occasional interactions.
+• Website + LINE OA + backoffice — for bookings, quotes, and forms when browser/chat is fine.
+• Full mobile app — for weekly/daily use, reliance on device features, push notifications, memberships, or complex flows.
+
+A good partner will explore these tracks and might start with a mobile-first web app before full apps.
+
+Typical Thai Use Cases
+
+1) Services/clinics (dental, beauty, fitness, education, small hospitals)
+   • Appointment scheduling
+   • Push reminders and follow-ups
+   • Membership/loyalty records
+   • Pre-visit uploads
+
+2) Delivery/on-demand (food, grocery, laundry, courier)
+   • Customer ordering
+   • Rider/driver job handling and navigation
+   • Live status updates
+   • Embedded payments and receipts
+
+3) Internal field tools (sales, inspectors, technicians, drivers)
+   • Assign/track work
+   • Capture photos/signatures
+   • Automatic reports
+   • Real-time sync to backend
+
+4) Loyalty/membership (restaurants, cafés, gyms, retail)
+   • Digital points/stamps
+   • Targeted offers
+   • Gamified repeat-visit rewards
+   • QR-based check-ins
+
+What Shapes Cost
+
+• Scope/features: screens, roles, integrations (maps, payments, LINE, APIs).
+• Design/UX: basic layouts vs tailored UI, motion, and brand polish.
+• Technology: Flutter cross-platform or native; backend choices like Firebase, Supabase, or custom.
+• Quality/maintenance: QA depth, security/performance work, and support plans.
+
+Budget shorthand:
+• Simple MVP — lean features, single role, simple backend.
+• Medium complexity — multiple roles, custom UI, key integrations, admin portal.
+• High complexity — broad feature set, heavy integrations, analytics, security hardening, possibly multi-market.
+
+Expect partners to connect features to costs and push for the smallest valuable first release.
+
+Timeline Basics
+
+1) Discovery & scope — clarify goals, flows, and must-haves. Outcome: agreed v1 scope.
+2) UI/UX & prototype — wireframes, branded visuals, clickable prototype. Outcome: flows validated before coding.
+3) Development & testing — build app/backend, integrate APIs, run QA. Outcome: device-ready builds.
+4) Launch & submissions — prepare assets, submit to Play/App stores, handle reviews. Outcome: published app.
+5) Post-launch — fix live issues, ship small improvements, plan next phases. Outcome: steady iteration.
+
+Choosing a Bangkok Partner
+
+Options:
+• Freelancer — low cost but single-person risk.
+• Agency/small studio — team coverage (PM, design, dev, QA) with structure.
+• In-house team — best for ongoing roadmaps but higher fixed cost and management.
+
+Selection criteria:
+• Case studies with shipped apps in similar industries or complexity.
+• Clear communication linking tech to business value and risks.
+• Modern stack (Flutter + cloud backends) for speed.
+• Documented process: proposals, milestones, QA, documentation.
+• Maintenance: plan for OS/security updates and future features.
+
+Local Insights
+
+• Thai/English bilingual UI with typography suited to Thai script.
+• PDPA basics: consent flows, secure accounts, data location considerations (with legal advice).
+• Payments: PromptPay, Thai bank transfers, local card gateways, optional regional wallets.
+• LINE alignment: login/notifications via LINE, chat support, QR flows for membership/check-ins.
+
+Avoiding Pitfalls
+
+• Assign a single decision owner.
+• Keep version 1 lean; split must-have vs later.
+• Ask for demos every 1–2 weeks.
+• Test with real users before heavy marketing.
+• Reserve budget for post-launch fixes/enhancements.
+• Hold a long-term vision but validate with an MVP.
+
+Wrap-Up
+
+When you confirm the need, pick a focused use case, and hire a team that understands Thai users, a Bangkok app project becomes manageable. A short chat with a local studio can validate feasibility, outline scope/timeline/budget, and sketch an MVP so you can proceed—or adjust—with confidence.
