@@ -4,6 +4,7 @@ from pathlib import Path
 
 ARTICLE_PATH = Path("article")
 OUTPUT_PATH = Path("article_versions.txt")
+OUTPUT_DIR = Path("article_versions")
 
 # A small synonym map for lightweight spinning. More entries can be added as needed.
 SYNONYMS = {
@@ -58,9 +59,20 @@ def main() -> None:
     versions = []
     for seed in range(1, 11):
         spun = spin_text(original, seed)
-        versions.append(f"--- Version {seed} ---\n{spun}\n")
+        versions.append((seed, spun))
 
-    OUTPUT_PATH.write_text("\n".join(versions), encoding="utf-8")
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    stitched_versions = []
+    for seed, spun in versions:
+        header = f"--- Version {seed} ---"
+        version_text = f"{header}\n{spun}\n"
+        stitched_versions.append(version_text)
+
+        version_path = OUTPUT_DIR / f"version_{seed}.txt"
+        version_path.write_text(version_text, encoding="utf-8")
+
+    OUTPUT_PATH.write_text("\n".join(stitched_versions), encoding="utf-8")
 
 
 if __name__ == "__main__":
